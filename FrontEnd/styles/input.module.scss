@@ -1,0 +1,38 @@
+
+@import "./variable";
+@import "./mixin";
+@import './common';
+
+.cstm_field{
+    height: 44px;
+    border-radius: $rd-8;
+    border: 1px solid transparent;   
+    background-color: var(--grey-color-200);
+    font-size: $fs-14;
+    font-weight: $fw-400;
+    color: var(--grey-color);
+    &:focus{
+        outline: none;
+        box-shadow: none;
+        background-color: var(--grey-color-200);
+        color: var(--grey-color);
+        border: 1px solid transparent;  
+    } 
+    &::placeholder{
+    color: rgba( var(--grey-color-200), 0.50 );
+    font-weight: $fw-400 !important;
+    }
+    &.sml{
+        height: 33px; 
+    }
+}
+
+
+
+@media only screen and (max-width:767px){
+    .cstm_field{
+        height: 40px;
+    }
+
+}
+

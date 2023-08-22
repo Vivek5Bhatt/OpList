@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "type": "Basic",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+    "price": 0,
+    "properties": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+  {
+    "id": 2,
+    "type": "Essential",
+    "tag": "Most popular",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+    "price": 30,
+    "properties": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  },
+  {
+    "id": 3,
+    "type": "Premium",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
+    "price": 60,
+    "properties": [
+      "Cras justo odio",
+      "Dapibus ac facilisis in",
+      "Morbi leo risus",
+      "Porta ac consectetur ac",
+      "Vestibulum at eros"
+    ]
+  }
+]

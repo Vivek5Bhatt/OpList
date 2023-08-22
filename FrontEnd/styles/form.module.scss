@@ -1,0 +1,33 @@
+@import "./variable";
+@import "./mixin";
+@import "./common";
+
+.rightcardbx {
+    height: 100%;
+    padding: 30px 15px !important;
+    .innerbx {
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .login_head {
+        flex: 0 0 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(50% - 160px);
+        margin: 0 auto;
+        @include translate(0, -50%);
+    }
+    .login_form {
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+

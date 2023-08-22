@@ -1,0 +1,87 @@
+
+// media query
+
+@media only screen and (min-width:768px){
+.mobile-show{
+    display: none;
+}
+    
+}
+
+@media only screen and (max-width:991px){
+    .container{ max-width: 98% !important;}
+}
+
+
+
+@media only screen and (max-width:767px){
+
+    .desktop_show{
+        display: none;
+    }
+
+    .form_section_outer {
+        padding: 20px 12px;
+    }
+    .form_section_outer .box_left{
+        min-height: initial;
+    }
+    .inner_card-sectionbx .logo_bar_head{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .inner_card-sectionbx .btn_bx1{
+        padding-top: 20px;
+    }
+    .form_section_outer .box_left{
+        padding: 20px 15px;
+    }
+    .title_lg{
+        font-size: $fs-24;
+    }
+
+    .form_section_outer .bg_gradient_white{
+        background: linear-gradient(to bottom, var(--grey-color-400) 35% , var(--white-color) 35%);
+    }
+    .form_innerbx_bg{
+        border: 1px solid var(--grey-color-500);
+    }
+
+    .inner_card-sectionbx .btn_bx1.mobile-btn{
+        padding-top: 30px;
+    }
+    .form_section_outer .bg-patter{
+       background-image: none;
+    }
+    .form_innerbx_bg{
+        padding: 30px 10px;
+    }
+    .btn.btn_md {
+        font-size: 16px;
+    }
+    .btn.btn-primary{
+        height: 40px;
+    }
+    .mx-450w{
+        width: 98%;
+    }
+    .google-btn .imge-bx{
+        width: 32px;
+        height: 32px;
+      }
+
+}
+
+
+@media only screen and (max-width:349px){
+    .google-btn{
+      font-size: 14px !important;
+      padding: 4px 38px !important;
+    }
+    }
+    @media only screen and (max-width:310px){
+    .google-btn{
+      font-size: 14px !important;
+     padding-right: 10px !important;
+    } 
+    }
